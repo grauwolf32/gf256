@@ -1,0 +1,4 @@
+g++ gen_tables.cpp gf256.cpp -o gen_tables
+./gen_tables
+g++ main.cpp gf256.cpp -o benchmark
+./benchmark
